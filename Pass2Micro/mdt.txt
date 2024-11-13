@@ -1,0 +1,5 @@
+ADD	(P,1)	
+SUB	(P,2)	
+MEND
+MOV	(P,3)	(P,4)	
+MEND

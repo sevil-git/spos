@@ -1,0 +1,29 @@
+MACRO
+ADD	M1	
+SUB	&A,	
+MEND
+M1 &A, &B
+M1 &A, &B
+ADD &A
+ADD &A
+SUB &B
+SUB &B
+MEND
+MACRO
+MOV	(P,3)	(P,4)	
+MEND
+M2 &X, &Y=10
+M2 &X, &Y=10
+MOV &X, &Y
+MOV &X, &Y
+MOV &X, &Y
+MEND
+
+ADD	M1	
+SUB	5	
+MEND
+M1 5 3
+M1 5 3
+MOV	(P,3)	(P,4)	
+MEND
+M2 8

@@ -1,0 +1,11 @@
+START 200       
+A DC 5
+B DS 10
+C ADD A
+D SUB B
+X DC 2
+Y DS 5
+Z MOV A, B
+=5
+=10
+END
